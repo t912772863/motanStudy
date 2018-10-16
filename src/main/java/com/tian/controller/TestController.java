@@ -1,5 +1,6 @@
-package com.tian;
+package com.tian.controller;
 
+import com.tian.IDemoService;
 import com.weibo.api.motan.config.springsupport.annotation.MotanReferer;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
