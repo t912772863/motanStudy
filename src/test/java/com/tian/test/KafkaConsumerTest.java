@@ -15,6 +15,7 @@ public class KafkaConsumerTest {
         Properties properties = new Properties();
         properties.put("bootstrap.servers", "127.0.0.1:9092");
         // Consumer分组ID
+
         properties.put("group.id", "group-1");
         properties.put("enable.auto.commit", "true");
         properties.put("auto.commit.interval.ms", "1000");
